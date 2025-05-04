@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mycityapp.data.models.Category
+import com.example.mycityapp.data.repository.Category
 
 @Composable
 fun CityGuideApp() {

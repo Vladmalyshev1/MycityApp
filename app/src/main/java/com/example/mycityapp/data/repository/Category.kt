@@ -1,6 +1,7 @@
-package com.example.mycityapp.data.models
+package com.example.mycityapp.data.repository
 
 import com.example.mycityapp.R
+import com.example.mycityapp.data.models.Place
 
 sealed class Category(val name: String, val places: List<Place>) {
     object Restaurants : Category(
